@@ -1,0 +1,26 @@
+{
+  "name": "data-validator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "cross-env DEBUG=data-validator jest -c jest.config.js --detectOpenHandles",
+    "lint": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.5",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "debug": "^4.1.0",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "supertest": "^3.3.0"
+  }
+}
